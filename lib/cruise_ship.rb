@@ -8,4 +8,9 @@
 
 def select_winner(passengers)
   # add the code snippet here!
+  passengers.find do |key, value|
+  if value[0] == "A"
+  return value
+  end
+end
 end
