@@ -8,4 +8,5 @@
 
 def select_winner(passengers)
   # add the code snippet here!
+  return passengers.values[0]
 end
